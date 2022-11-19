@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/sign-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper-reg">
+        <div class="registration__wrapper ">
+            <img src="img/logo.png" alt="">
+            <div class="form__wrapper">
+                <div class="form__header-reg">
+                    <p class="form__header-descr">Давайте создадим Вам аккаунт</p>
+                    <h1 class="form__header-title">Заполните все поля</h1>
+                </div>
+                <form action="/">
+                    <div class="form__group reg">
+                        <label for="first-name">Ваше имя</label>
+                        <input type='text' id='forst-name' placeholder="Имя">
+                    </div>
+                    <div class="form__group reg">
+                        <label for="second-name">Ваше фамилия</label>
+                        <input type="text" id='second-name' placeholder="Фамилия">
+                    </div>
+                    <div class="form__group reg">
+                        <label for="email">E-mail</label>
+                        <input type="email" id='email' placeholder="E-mail">
+                    </div>
+                    <div class="form__group reg">
+                        <label for="phone">Телефон номер</label>
+                        <input type="tel" id='phone' placeholder="Телефон">
+                    </div>
+                    <div class="form__group reg">
+                        <label for="password">Пароль</label>
+                        <input type="password" id='password' placeholder="Пароль">
+                    </div>
+                    <div class="form__group reg">
+                        <label for="try-password">Повтарите пароль</label>
+                        <input type="password" id='try-password' placeholder="Пароль">
+                    </div>
+                    <div class="prof__field reg">
+                        <div class="freelancer__radio">
+                            <input type="radio" id='freelancer'>
+                            <label for="freelancer">Я исполнитель</label>
+                        </div>
+                        <div class="manager__radio">
+                            <input type="radio" id='manager'>
+                            <label for="manager">Я заказчик</label>
+                        </div>
+
+                    </div>
+                </form>
+                <button class="form__btn reg__btn" type="submit">Зарегестрироваться</button>
+                <div class="footer__form-reg">
+                    У Вас есть аккаунт?<a href="#">Войдите</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="img/carousel1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

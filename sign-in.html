@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вход в аккаунт</title>
+    <link rel="stylesheet" href="css/sign-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sign__wrapper">
+            <img src="img/logo.png" alt="">
+            <div class="form__wrapper">
+                <div class="form__header">
+                    <p class="form__header-descr">Добро пожаловать!</p>
+                    <h1 class="form__header-title">Войдите в свой аккаунт</h1>
+                </div>
+                <form action="/">
+                    <div class="form__group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id='email' placeholder="E-mail">
+                    </div>
+                    <div class="form__group">
+                        <label for="password">Пароль</label>
+                        <input type="text" id='password' placeholder="Пароль">
+                    </div>
+                    <div class="forgot__field">
+                        <div class="left__side">
+                            <input type="radio" id='remember'>
+                            <label for="remember"> Запомнить меня</label>
+                        </div>
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                </form>
+                <button class="form__btn" type="submit">Войти</button>
+                <div class="google__btn-field">
+                    <img src="img/google-ico.png." alt="">
+                    <a href="#" class="google__btn">Или войдите с помощю Google</a>
+                </div>
+                <div class="footer__form">
+                    У Вас все еще нет аккауна? <a href="#">Зарегистрируйтесь бесплатно!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="img/carousel1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
